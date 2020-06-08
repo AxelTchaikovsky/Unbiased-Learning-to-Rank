@@ -40,7 +40,7 @@ import torch
 import torch.nn as nn
 from torch.utils.tensorboard import SummaryWriter
 
-from load_mslr import get_time
+from load_set import get_time
 from metrics import NDCG
 from utils import (
     eval_cross_entropy_loss,

@@ -18,7 +18,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.utils.tensorboard import SummaryWriter
 
-from load_mslr import get_time
+from load_set import get_time
 from utils import (
     eval_cross_entropy_loss,
     eval_ndcg_at_k,

@@ -11,7 +11,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from load_mslr import get_time, DataLoader
+from load_set import get_time, DataLoader
 from metrics import NDCG
 
 
