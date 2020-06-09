@@ -33,13 +33,7 @@ NN structure: 136 -> 64 -> 16 -> 1, ReLU6 as activation function
 
 Feed forward NN. Gradient is proportional to NDCG change of swapping two pairs of document
 
-to choose the optimal learning rate, use smaller dataset:
-
-```
-python RkN&LaRk/LambdaRank.py --lr 0.001 --ndcg_gain_in_train exp2 --small_dataset --debug --standardize
-```
-
-otherwise, use normal dataset:
+use normal dataset:
 
 ```
 OUTPUT_DIR=/tmp/ranking_output/
